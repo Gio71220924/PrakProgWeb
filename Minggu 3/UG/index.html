@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Daftar Anggota DPR RI</title>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Pendaftaran Calon Legislatif DPR RI</h1>
+            <img src="DPR_RI_insignia.png" alt="Logo DPR" width="100">
+        </center>
+    </header>
+    <br>
+
+    <main>
+        <center>
+
+                <form action="">
+                    <table>
+                        <tr>
+                            <td>
+                                <fieldset>
+                                    <legend>Informasi Personal</legend>
+                                    <table>
+                                        <tr>
+                                            <td>Nama Lengkap:</td>
+                                            <td><input type="text" placeholder="Isi Nama" required></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tanggal Lahir:</td>
+                                            <td><input type="date" required ></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Alamat:</td>
+                                            <td><textarea cols="50" rows="5" placeholder="Masukan alamat anda!" required></textarea></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jenis Kelamin:</td>
+                                            <td>
+                                                <label for="jk"></label>
+                                                <input type="radio" name="jk" id="jk">Laki-Laki
+                                                <input type="radio" name="jk" id="jk">Perempuan
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Agama:</td>
+                                            <td>
+                                                <select >
+                                                    <option value="0" disabled selected>Pilih Agama</option>
+                                                    <option value="1">Islam</option>
+                                                    <option value="2">Kristen</option>
+                                                    <option value="3">Katolik</option>
+                                                    <option value="4">Hindu</option>
+                                                    <option value="5">Buddha</option>
+                                                    <option value="6">Konghucu</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </fieldset> 
+                            <td>
+                                <fieldset>
+                                    <legend>Lainnya</legend>
+                                    <table>
+                                        <tr>
+                                            <td>Email:
+                                            <br><label for="email"></label> <input type="email" name="email" id="email" placeholder="Masukan Email anda"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Password:
+                                                <br><label for="psw"><input type="password" name="pw" id="pw" placeholder="Masukan Password Anda:"></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pilihan Komisi:
+                                                <br>
+                                                <label for="komisi"></label>
+                                                <input type="checkbox" name="komisi" id="komisi"> Komisi I
+                                                <input type="checkbox" name="komisi" id="komisi"> Komisi II
+                                                <input type="checkbox" name="komisi" id="komisi"> Komisi III
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </fieldset>
+                            </td>
+                    </table>
+                    
+                    <center>
+                        <input type="submit" name="submit" id="submit" value="Daftar">
+                        <input type="reset" name="reset" id="reset" value="Reset">
+                    </center>
+                    
+                    
+                </form>
+                
+            </main>
+            
+    </center>
+    </body>
+    </html>

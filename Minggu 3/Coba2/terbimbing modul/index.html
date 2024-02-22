@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan</title>
+</head>
+<body>
+    <header>
+        <img src="fti-ukdw.png" alt="Logo FTI" width="100">
+        <span>Fakultas Teknologi Informasi</span>
+        <br><br>
+    </header>
+
+    <main>
+        <h1>Pendataan Buku</h1>
+        <br><br>
+
+        <fieldset>
+            <legend>form daftar buku</legend>
+            <form action="summary.html" method="post">
+
+                <div>
+                    <label for="nmrbuku">No. Buku</label>
+                    <input type="" name="nmrbuku" id="nmrbuku" value="90001" disabled> <!--Disabled = ga bisa diklik inputnya broooo-->
+                </div>
+                <br>
+
+                <div>
+                    <label>Judul Buku</label>
+                    <input type="text">
+                </div>
+                <br>
+
+                <div>
+                    <label >Kategori Buku</label>
+                    <input type="radio" name="kategori" id="kategoriID" value="1">Novel
+                    <input type="radio" name="kategori" id="kategoriID" value="2">Majalah
+                    <input type="radio" name="kategori" id="kategoriID" value="3">Komik
+                    <input type="radio" name="genre" id="kategoriID" value="4">Ensiklopedia
+                </div>
+                <br>
+
+                <div>
+                    <label>Genre Buku</label>
+                    <input type="checkbox" name="genre" id="genreId" value="1">Fiksi
+                    <input type="checkbox" name="genre" id="genreId" value="2">Horor
+                    <input type="checkbox" name="genre" id="genreId" value="3">Misteri
+                    <input type="checkbox" name="genre" id="genreId" value="4">Fantasi
+                </div>
+                <br>
+
+                <div>
+                    <label >Penerbit</label>
+                    <select name="penerbit"  >
+                        <option value="0" disabled selected>--Pilih Penerbit--</option>
+                        <option value="1">Deepublish</option>
+                        <option value="2">Bukunesia</option>
+                        <option value="3">Grasindo</option>
+                        <option value="4">Bintang Media</option>
+                        </select>
+                </div>
+                <br>
+
+                <div>
+                    <label >File Gambar</label>
+                    <input type="file" name="gambar" id="gambarId">
+                </div>
+                <br>
+                    
+                <div>
+                    <label>Sinopsis</label>
+                    <textarea name="sinopsis" id="sinopsisId" cols="30"
+                    rows="5"></textarea>
+                </div>
+                <br>
+
+                <div>
+                    <label>Tanggal Beli</label>
+                    <input type="date" name="tgl" id="tglId">
+                </div>
+                <br>
+
+                <div>
+                    <label >Jumlah Pembelian</label>
+                    <input type="number" name="jml" id="jmlId">
+                </div>
+                <br>
+
+                <fieldset>
+                    <legend>Ini buat simpan atau reset bro  </legend>
+                    <div>
+                        <input type="submit" value="Simpan">
+                        <input type="reset" value="Reset">
+                    </div>
+                </fieldset>
+
+            </form>
+    </fieldset>
+    </main>
+    
+    <!-- kalau mau buka jangan pake live server gan -->
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan</title>
+</head>
+<body>
+    <header>
+        <img src="fti-ukdw.png" width="50" alt="FTI UKDw">
+        <span>Fakultas Teknologi Informasi</span>
+    </header>
+    
+
+    <main>
+        <h1>Pendataan Buku</h1>
+        <form action="summary.html" method="post">
+            
+        </form>
+        <div>
+            <label>No. Buku: </label>
+            <input disabled value="900001">
+        </div>
+
+        <div>
+            <label>Judul buku: </label>
+            <input type="text">
+
+        </div>
+
+        <div>
+            <label>Kategori Buku</label>
+            br
+            <input type="radio" name="kategori" id="kategoriID" value="1">Novel
+            <br>
+            <input type="radio" name="kategori" id="kategoriID" value="2">Majalah
+            <br>
+            <input type="radio" name="kategori" id="kategoriID" value="3">Komik
+            <br>
+            <input type="radio" name="kategori" id="kategoriID" value="4">Enslikopedia
+        </div>
+
+        <div>
+            <label>Genre buku</label>
+            <input type="checkbox" name="genre" id="genreID" value="1">Fiksi
+            <input type="checkbox" name="genre" id="genreID" value="2">Horor
+            <input type="checkbox" name="genre" id="genreID" value="3">Misteri
+            <input type="checkbox" name="genre" id="genreID" value="4">Fantasi
+        </div>
+
+        <div>
+            <label>Penerbit</label>
+            <select name="penerbut" id="PenerbitID">
+            <option value="0">--Pilih Penerbit--</option>
+            <option value="1">Penerbit1</option>
+            <option value="2">Penerbit2</option>
+            <option value="3">Penerbit3</option>
+            <option value="4">Penerbit4</option>
+            </select>
+        </div>
+
+        <div>
+            <label>File Gambar</label>
+            <input type="file" name="gambar" id="gambarID" multiple>
+        </div>
+        
+        <div>
+            <label>Sinopsis</label>
+            <textarea name="Sinopsis" id="SinopsisID    " cols="30" rows="5" placeholder="Masukan teks anda disini"></textarea>
+        </div>
+        
+
+        <div>
+            <label>Tanggal beli</label>
+            <input type="date" name="Tanggal" id="TanggalID">
+        </div>
+
+        <div>
+            <label>Jumlahbeli</label>
+            <input type="number" name="Jumlahbeli" id="JumlahbeliID">
+        </div>
+        
+        <div>
+            <label for="namadepan">Nama depan:</label>
+            <input type="text" name="namadepan" id="namadepan">
+        </div>
+        <div>
+            <input type="submit" value="simpan">
+            <input type="reset" value="reset">
+        </div>
+        
+       
+    </main>
+    
+</body>
+</html>

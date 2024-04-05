@@ -1,0 +1,83 @@
+header{
+    background-color: #434A42;
+    text-align: center;
+    color: #f5f5dc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.content{
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+table,tr{
+    background-image: url(gambar/bg_hitam.jpeg);
+    border:5px;
+    border-style: solid;
+    border-color: black;
+}
+
+table, img{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+
+.textBold{
+    font-weight: bolder;
+}
+
+.textHighlight{
+    background-color: blue;
+}
+
+
+.content .textItalic.textMerah.textBold{
+    font-style: italic;
+}
+
+#upcomingList{
+    list-style-type: upper-alpha;
+}
+
+#upcomingList .listContent{
+    list-style-image: url(gambar/sapi_2.png) ;
+
+}
+
+.listContent:nth-child(2){
+    text-shadow: 2px 2px red;
+}
+
+
+thead ,tr, th{
+    background-color: #e1ca96;
+    border-width: 5px;
+}
+
+
+#historyContent tbody td{
+    text-align: center;
+    border-width: 5px;
+    background-color: white;
+}
+
+
+#HistorContent, thead,tr:nth-child(odd) th {
+    background-color: #e1ca96;
+}    
+
+#HistorContent, thead,tr:nth-child(even) th {
+    background-color: #f5f5dc;
+}    
+
+
+footer{
+        letter-spacing: 10px;
+        color: black;
+        text-align: center;
+    }

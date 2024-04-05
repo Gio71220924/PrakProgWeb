@@ -1,0 +1,2 @@
+Global = Variabel yang dideklarasikan di luar fungsi  dan hanya bisa diakses di luar fungsi.
+Local =    Variabel yang dideklarasikan di luar fungsi  dan hanya bisa diakses di luar fungsi.

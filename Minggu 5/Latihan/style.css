@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+
+}
+
+.header p{
+    color: red;
+}
+
+
+
+h1 +p+p+p{
+    color: hotpink;
+}
+
+.footer > h1{
+    color: salmon;
+}
+
+.main p{
+    color:black ;
+    border-top-style: solid;
+    border-bottom-style: solid  ;
+    border-right-style: solid;
+    border-left-style: solid ;
+    border-radius: 10px 20px 30px 40px;
+    border-color: green blue red yellow ;
+    width: 75%;
+    margin: auto;
+    padding:30px ;
+}
+

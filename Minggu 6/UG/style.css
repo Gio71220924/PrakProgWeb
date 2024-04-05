@@ -1,0 +1,135 @@
+#logoAgensi{
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding-top: 10px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.headerArea{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    padding-top: 20px;
+
+}
+
+header{
+    background-color: #f20fd0;
+   ;
+    height: 60px;
+}
+
+.logo_gidle{
+    text-align: center;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    size: 5px;
+}
+
+.logo_gidle > img{
+    width: 60px;
+    padding-left: 40px;
+}
+    
+
+
+
+aside.member img {
+    border:solid 10px #0f79f2;
+    border-radius: 20px;
+    height: 650px;
+    float: left;
+    width: 30%;
+    margin: 8px;
+
+}
+
+
+
+.artikel-atas{
+    background-color:#a8d7ee;
+    float: right;
+    width: 29.5%;   
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px; 
+    padding: 10px;
+    height: 200px;
+
+}
+
+.artikel-atas img{
+    width: 150px;
+    height: 90px;
+    float: right;
+    margin-right: 80px;
+    
+}
+
+
+.artikel-bawah{
+    background-color:#a8d7ee;
+    border-radius: 20px 20px 20px 20px;
+    float:right;
+    width: 62%;
+    padding: 10px;
+    margin:5px;
+    height:400px;
+}
+
+
+
+footer{
+    background-color: #f20fd0;
+    text-align: center;
+    height:50px ;
+    margin:0;
+    clear: both;
+    padding: 10px;
+    bottom: 0px;
+
+    
+}
+
+
+#call img{
+    width: 50px;
+    color: black;
+    /* text-align: center; */
+    float: right;
+    position: fixed;
+    background-color: #a8d7ee;
+    bottom: 15px;
+    right: 20px;
+    border-radius: 200px;
+}
+
+
+#call{
+    padding: 10px;
+}
+
+
+
+
+
+
+main{
+    background-color:#f084f2 ;
+    height: 700px;
+}
+
+main article.artikel-atas:nth-child(2){
+    overflow-y: scroll;
+    
+}
+main article.artikel-atas:nth-child(1){
+    padding: 10px;
+
+}

@@ -1,0 +1,231 @@
+header{
+    background-color: darkgreen;
+    text-align: right;
+    color: white;
+    padding: 10px;
+    
+}
+
+a:hover {
+    color: #FC6736;
+  }
+
+
+header a{
+    color: white;
+    margin: 10px;
+
+  }
+
+a:link{
+    text-decoration: none;
+}
+
+
+main > :nth-child(1){
+    padding-left: 5px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: antiquewhite;
+
+    border-top-style: dotted ;
+    border-top-width: 5px;
+    border-top-color: darkgreen;
+
+    border-right-style: dashed;
+    border-right-color: darkgreen;
+    border-right-width: 5px;
+
+    border-bottom-style: dotted ;
+    border-bottom-width: 5px;
+    border-bottom-color: darkgreen;
+
+    border-left-width: 5px;
+    border-left-style: dashed ;
+    border-left-width: 5px;
+    border-left-color: darkgreen;
+    
+    a{
+        color: #FC6736;
+        border-top-style: solid ;
+        border-top-width: 2px;
+        border-top-color:#fc6736;
+
+        border-right-style: solid;
+        border-right-color: #FC6736;
+        border-right-width: 2px;
+
+        border-bottom-style: solid ;
+        border-bottom-width: 2px;
+        border-bottom-color: #FC6736;
+
+        border-left-width: 2px;
+        border-left-style: solid ;
+        border-left-color: #FC6736;
+        border-radius:5px;
+        margin-top: 15px;
+    }
+}
+
+main > :nth-child(2){
+    
+    background-color: antiquewhite;
+    margin-right: 30px;
+    margin-top:20px ;
+    margin-left: 30px;
+
+    border-top-style: dashed ;
+    border-top-width: 3px;
+    border-top-color: darkgreen;
+
+    border-right-style: dashed;
+    border-right-color: darkgreen;
+    border-right-width: 3px;
+
+    border-bottom-style: dashed ;
+    border-bottom-width: 3px;
+    border-bottom-color: darkgreen;
+
+    border-left-width: 3px;
+    border-left-style: dashed ;
+    border-left-width: 3px;
+    border-left-color: darkgreen;
+
+    border-radius: 0px 20px 0px 20px;
+    
+    h1{
+    text-align: center;
+    
+   }
+   /* p{
+    padding-left: 10px;
+   }
+    */
+   a{
+    text-align: center;
+    color: #FC6736;
+    border-top-style: solid ;
+    border-top-width: 2px;
+    border-top-color:#fc6736;
+
+    border-right-style: solid;
+    border-right-color: #FC6736;
+    border-right-width: 2px;
+
+    border-bottom-style: solid ;
+    border-bottom-width: 2px;
+    border-bottom-color: #FC6736;
+
+    border-left-width: 2px;
+    border-left-style: solid ;
+    border-left-color: #FC6736;
+    border-radius:5px;
+    margin-top:20px ;
+    text-align: center;
+   }
+}
+
+
+main > :nth-child(3){
+    padding-left: 10px;
+    background-color: antiquewhite;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-top-style: dotted ;
+    border-top-width: 5px;
+    border-top-color: darkgreen;
+
+    border-right-style: dashed;
+    border-right-color: darkgreen;
+    border-right-width: 5px;
+
+    border-bottom-style: dotted ;
+    border-bottom-width: 5px;
+    border-bottom-color: darkgreen;
+
+    border-left-width: 5px;
+    border-left-style: dashed ;
+    border-left-width: 5px;
+    border-left-color: darkgreen;
+
+    a{
+        text-align: left;
+        color: #FC6736;
+        
+        border-top-style: solid ;
+        border-top-width: 2px;
+        border-top-color:#fc6736;
+
+        border-right-style: solid;
+        border-right-color: #FC6736;
+        border-right-width: 2px;
+
+        border-bottom-style: solid ;
+        border-bottom-width: 2px;
+        border-bottom-color: #FC6736;
+
+        border-left-width: 2px;
+        border-left-style: solid ;
+        border-left-color: #FC6736;
+        border-radius:5px;
+        padding:3px;
+        margin: 3px;
+        width: 50%;
+        
+    }
+
+
+
+
+}
+main > :nth-child(3) span:nth-child(2){
+    color:darkcyan;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
+footer{
+    background-color: darkgreen !important;
+    color: white !important;
+    text-align: center;
+    padding: 10px;
+}
+
+.section{
+    margin-bottom: 0px;
+    padding:10px;
+    padding-bottom: 10px;
+}
+
+main .section :nth-child(1){
+        margin-bottom: 10px;
+        padding:10px;
+        padding-bottom: 10px;   
+}
+
+.section:nth-child(1) a{
+    
+ padding:7px;
+}
+.section:nth-child(2) a{
+
+    padding: 5px;
+}
+.section:nth-child(3) a{
+    
+ padding: 5px;
+}
+
+.section:nth-child(2)   {
+    text-align: center !important   ;
+}
+.section:nth-child(2)   p{
+    text-align: left !important;
+}

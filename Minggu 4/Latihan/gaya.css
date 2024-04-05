@@ -1,0 +1,49 @@
+body{
+    height: 1000px;
+    background-color:darkmagenta;
+    background-image:url(LOGO\ UKDW\ WARNA\ PNG.png); background-repeat: no-repeat; background-size: 200px; background-position: center;  
+}
+
+
+.hehe .a1{
+    background-color:antiquewhite;
+    color: black;
+}
+
+.hehe .a2{
+    background-color: aqua;
+}
+
+
+.hehe .a3{
+    background-color: brown;
+}
+
+
+
+.lorem{
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.Lorem .haha1{
+    color: aliceblue;
+    text-align: center;
+}
+
+.Lorem .pepe{
+    color: white;
+    text-align: center;
+    border: 10px dashed darkgoldenrod;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+li:nth-child(2) {
+    background: burlywood;
+}
+
+li:nth-child(4) {
+    background: pink;
+}
